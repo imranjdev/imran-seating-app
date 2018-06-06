@@ -10,14 +10,14 @@
 .settings
 .springBeans
 .sts4-cache
-
+.class
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 /out/
-
+/bin/
 ### NetBeans ###
 /nbproject/private/
 /build/
