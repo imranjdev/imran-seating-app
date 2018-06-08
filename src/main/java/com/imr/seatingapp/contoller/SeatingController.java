@@ -10,5 +10,9 @@ public class SeatingController {
 	String home() {
 		return "Hello World";
 	}
+	@RequestMapping("/bolo")
+	String home2() {
+		return "Hello World";
+	}
 
 }
