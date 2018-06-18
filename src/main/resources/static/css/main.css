@@ -1,0 +1,102 @@
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: darkturquoise;
+}
+.container{
+	padding-top: 10%;
+}
+.login-div{
+	float: left;
+	width: 50%;
+}
+.register-div{
+	float: left;
+	width: 50%;
+	height:100%;
+}
+.login-form{
+	/*  float: left;*/
+	padding-left:80px;
+	width: 60%;
+	height:100%;
+}
+.register-form{
+	padding-right:80px;
+	float: right;
+	width: 60%;
+	height:100%;
+}
+.form-control-location{
+display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    float: left;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control-dropdown{
+display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    float: left;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.button, select {
+    text-transform: none;
+    width: 66px;
+    height: 33px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group-loc {
+    margin-bottom: 15px;
+    float: left;
+}
+.loc{
+	float:left;
+}
+
+.btn{
+	    padding: 6px 21px;
+	    float: right;
+    	background-color: lightseagreen;
+}
