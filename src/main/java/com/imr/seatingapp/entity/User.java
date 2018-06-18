@@ -1,5 +1,6 @@
 package com.imr.seatingapp.entity;
 
+
 public class User {
 
 private long id;
