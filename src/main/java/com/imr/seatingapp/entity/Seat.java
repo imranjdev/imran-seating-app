@@ -9,7 +9,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+
+import lombok.Data;
 @Entity
+@Data
 public class Seat {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

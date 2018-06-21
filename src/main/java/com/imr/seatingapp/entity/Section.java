@@ -11,7 +11,10 @@ import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
+import lombok.Data;
+
 @Entity
+@Data
 public class Section {
 
 	@Id

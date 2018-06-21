@@ -88,11 +88,12 @@ display: block;
 }
 
 .form-group-loc {
-    margin-bottom: 15px;
+    width: 60%;
     float: left;
 }
 .loc{
 	float:left;
+	margin-left: 3%;
 }
 
 .btn{
