@@ -16,14 +16,14 @@ import lombok.Data;
 @Entity
 @Data
 public class Section {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
 	private String name;
 	private String layoutInfo;
+
 	@JsonManagedReference
 	@OneToMany(mappedBy = "section", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<Seat> seats;
-
 }
