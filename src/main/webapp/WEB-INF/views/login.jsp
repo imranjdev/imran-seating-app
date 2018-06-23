@@ -69,7 +69,7 @@
 					<spring:bind path="passwordConfirm">
 						<div class="form-group ${status.error ? 'has-error' : ''}">
 							<form:input type="password" path="passwordConfirm"
-								class="form-control" placeholder="Pw Conf"></form:input>
+								class="form-control" placeholder="Confirm Password"></form:input>
 							<form:errors style="color: red" path="passwordConfirm"></form:errors>
 						</div>
 					</spring:bind>
@@ -94,7 +94,7 @@
 					</div>
 					<div class="form-group">
 						<input type="password"
-							class="form-control" id="pwd" name="password"  placeholder="Enter Your Email">
+							class="form-control" id="pwd" name="password"  placeholder="Enter Password">
 					</div>
 					<button type="submit" class="btn btn-default">Login</button>
 				</form>
